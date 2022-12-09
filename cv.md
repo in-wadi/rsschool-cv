@@ -1,7 +1,7 @@
 ## [rsschool-cv](https://github.com/in-wadi/rsschool-cv.git)
 ___
 # Veshter Vadim
-![foto](/rsschool-cv/foto.jpg "foto")
+![foto](/foto.jpg "foto")
 ___
 ### My Contact Info:
 + **Location**: Minsk, Belarus
