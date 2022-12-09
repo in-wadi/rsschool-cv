@@ -41,6 +41,8 @@ ___
 [CV#1. Markdown & Git](https://github.com/in-wadi/rsschool-cv.git)
 ___
 ### Languages:
-Russian - Native speaker.
+Russian - Native speaker
+
 Belarusian - Native
+
 English - A1 - Basic
