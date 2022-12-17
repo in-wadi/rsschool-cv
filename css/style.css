@@ -1,9 +1,12 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+  }
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    height: 100%;
     font-family: Inter, sans-serif;
     font-weight: 300;
     line-height: 32px;
@@ -11,31 +14,41 @@ body {
     color: #252B42;
 }
 
+a {
+    color: #252B42;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #122e9b;
+}
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
+    justify-content: space-between;
 }
 
 .container {
-    background: #FAFAFA;
+    background: #f9f9f9;
     max-width: 1040px;
     margin: 0px auto;
-    padding: 0px 15px;
-
 }
 
 .main-container {
+    padding: 30px 20px;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    border: 1px solid red;
     height: 100%
 }
 
 /* ------------------------------------header---------------------------------- */
-.header-container {}
+.header-container {
+    background: #e6eae6;
+}
 
 .header-nav {}
 
@@ -46,9 +59,12 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    align-items: center;
 }
 
-.nav-item {}
+.nav-item {
+    
+}
 
 .nav-item:not(:last-child) {
     margin: 0 15px 0 0;
@@ -56,38 +72,36 @@ body {
 
 .nav-link {
     text-decoration: none;
+    padding: 0 10px;
+    line-height: 50px;
 }
 
 /* ------------------------------------left-side-------------------------------- */
 .left-side {
-
-    border: 1px solid red;
 }
-
 .image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .image img {
     border-radius: 15%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
 .contact {
-
-    padding: 50px 50px;
+    
 }
-
 .section-title {
     font-weight: 500;
     font-size: 28px;
     line-height: 129%;
     color: #000000;
+    margin: 30px 10px;
 }
 
-.section-text {}
+.section-text {
+
+}
 
 .contact-items {}
 
@@ -95,7 +109,6 @@ body {
 
 .skills {
 
-    padding: 50px 50px;
 }
 
 .skills-items {}
@@ -106,12 +119,64 @@ body {
 
 .project {
 
-    padding: 50px 50px;
 }
 
 .project-items {}
 
 .project-item {}
 /* -------------------------------------right side-------------------------------- */
+.right-side {
+    
+}
+.page-title {
 
-.right-side {}
+}
+.main-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 108%;
+    color: #000000;
+}
+.about {
+
+}
+.education {
+}
+.education-items {
+}
+.education-item {
+}
+pre {
+    padding-top: 30px;
+    background-color: #d6d6d6;
+    border-radius: 3px;
+    font-family: monospace;
+}
+.languages {
+}
+.languages-items {
+}
+.contact-item {
+}
+/* -------------------------------------footer-------------------------------- */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: #e6eae6;
+}
+.footer {
+    
+}
+.github {
+}
+.footer-year {
+}
+.footer-rsschool {
+    width: 121px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
