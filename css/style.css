@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
-	margin: 0;
-  }
+    margin: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -52,8 +53,6 @@ a:hover {
     background: #e2e2e2;
 }
 
-.header-nav {}
-
 .nav-list {
     display: flex;
     flex-wrap: wrap;
@@ -62,10 +61,6 @@ a:hover {
     padding: 10px 10px;
     list-style: none;
     align-items: center;
-}
-
-.nav-item {
-    
 }
 
 .nav-item:not(:last-child) {
@@ -81,9 +76,11 @@ a:hover {
 .left-side {
     padding-right: 30px;
 }
+
 .image {
     display: flex;
 }
+
 .image img {
     object-fit: cover;
     width: 250px;
@@ -91,9 +88,7 @@ a:hover {
     border-radius: 50%;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.contact {
-    
-}
+
 .section-title {
     font-weight: 500;
     font-size: 28px;
@@ -107,49 +102,21 @@ a:hover {
 
 }
 
-.contact-items {}
-
-.contact-item {}
-
-.skills {
-
-}
-
-.skills-items {}
 
 .skills-item {
     list-style: disc;
 }
 
-.project {
-
-}
-
-.project-items {}
-
-.project-item {}
 /* -------------------------------------right side-------------------------------- */
-.right-side {
-    
-}
-.page-title {
 
-}
 .main-title {
     font-weight: 500;
     font-size: 48px;
     line-height: 108%;
     color: #000000;
 }
-.about {
 
-}
-.education {
-}
-.education-items {
-}
-.education-item {
-}
+
 code {
     display: block;
     background-color: #dddddd;
@@ -157,29 +124,21 @@ code {
     font-family: monospace;
     padding: 20px;
 }
-.languages {
-}
-.languages-items {
-}
-.contact-item {
-}
-/* -------------------------------------footer-------------------------------- */
 
+/* -------------------------------------footer-------------------------------- */
 .footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     background: #e2e2e2;
-    
+
 }
+
 .footer {
     padding: 12px 0px;
 }
-.github {
-}
-.footer-year {
-}
+
 .footer-rsschool {
     width: 121px;
     height: 45px;
