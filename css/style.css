@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 16px;
+    color: #252B42;
+}
+
+a {
+    color: #4a5a97;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #122e9b;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    background: #f9f9f9;
+    max-width: 1040px;
+    margin: 0px auto;
+    padding: 0 30px;
+}
+
+.main-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: 100%
+}
+
+/* ------------------------------------header---------------------------------- */
+.header-container {
+    background: #e2e2e2;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 10px 10px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-item:not(:last-child) {
+    margin: 0 15px 0 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0px 8px;
+}
+
+/* ------------------------------------left-side-------------------------------- */
+.left-side {
+    padding-right: 30px;
+}
+
+.image {
+    display: flex;
+}
+
+.image img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 129%;
+    color: #000000;
+    margin: 30px 0;
+}
+
+.section-text {
+    color: rgb(67, 67, 67);
+
+}
+
+
+.skills-item {
+    list-style: disc;
+}
+
+/* -------------------------------------right side-------------------------------- */
+
+.main-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 108%;
+    color: #000000;
+}
+
+
+code {
+    display: block;
+    background-color: #dddddd;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 20px;
+}
+
+/* -------------------------------------footer-------------------------------- */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: #e2e2e2;
+
+}
+
+.footer {
+    padding: 12px 0px;
+}
+
+.footer-rsschool {
+    width: 121px;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
