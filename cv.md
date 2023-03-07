@@ -2,7 +2,7 @@
 
 ## Veshter Vadim
 
-![foto](https://in-wadi.github.io/rsschool-cv/foto.jpg "foto")
+<img src="https://github.com/in-wadi/rsschool-cv/raw/rsschool-cv-html/assets/img/foto.jpg" width="250" height="250" alt="foto"/>
 
 ---
 
@@ -25,9 +25,12 @@ I am 36 years old, worked as the head of the service center. I decided to change
 
 ### Skills
 
-*   HTML
-*   CSS
+*   HTML5
+*   Markdown
+*   CSS3
 *   Figma
+*   Git
+*   BEM methodology
 
 ---
 
@@ -47,17 +50,25 @@ alert(message);
 *   Institute of Parliamentarism and Entrepreneurship  
     Department of Political Science and Humanities, political scientist-lawyer
 *   Courses:
-    *   Udemy platform, Coder - HTML, CSS, JavaScript Languages
-    *   CSS, HTML, Git video courses on YouTube channel:
+    *   [Udemy platform](https://www.udemy.com/), Coder - HTML, CSS, JavaScript Languages
+    *   [RS School](https://rs.school/) free-of-charge and community - preparatory course «JavaScript/Front-end. Stage 0"
+    *   CSS, HTML, Git, JavaScript video courses on YouTube channel:
         *   [WebCademy](https://www.youtube.com/channel/UClM8hQL7u_1sopEE9NkbsWA)
         *   [FreelancerLifeStyle](https://www.youtube.com/@FreelancerLifeStyle)
         *   [VladilenMinin](https://www.youtube.com/@VladilenMinin)
+    *    [Hexlet](https://hexlet.io) and [Code Basics](https://code-basics.com)- programming courses created by programmers for programmers.
 
 ---
 
-### My first project
+### My projects
 
-[CV#1. Markdown & Git](https://in-wadi.github.io/rsschool-cv/cv)
+[My CV Markdown](https://in-wadi.github.io/rsschool-cv/cv)
+
+[My CV HTML, CSS](https://in-wadi.github.io/rsschool-cv/)
+
+[Plants](https://rolling-scopes-school.github.io/in-wadi-JSFEPRESCHOOL2022Q4/plants)
+
+[Momentum](https://rolling-scopes-school.github.io/in-wadi-JSFEPRESCHOOL2022Q4/momentum)
 
 ---
 
