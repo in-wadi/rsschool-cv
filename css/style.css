@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: Inter, sans-serif;
+    font-family: Helvetica, serif;
     font-weight: 300;
     line-height: 32px;
     font-size: 16px;
@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    color: #4a5a97;
+    color: #232d4d;
     text-decoration: none;
     transition: color 0.5s;
 }
@@ -36,21 +36,21 @@ a:hover {
 .container {
     background: #f9f9f9;
     max-width: 1040px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 0 30px;
 }
 
 .main-container {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
     padding-top: 20px;
     padding-bottom: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    height: 100%
+    display: flex;
+    height: 100%;
 }
 
 /* ------------------------------------header---------------------------------- */
 .header-container {
-    background: #e2e2e2;
+    background: #C5DDE8;
 }
 
 .nav-list {
@@ -69,16 +69,26 @@ a:hover {
 
 .nav-link {
     text-decoration: none;
-    padding: 0px 8px;
+    padding: 0 8px;
 }
 
 /* ------------------------------------left-side-------------------------------- */
 .left-side {
     padding-right: 30px;
+    flex: 1 0 35%;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-inline-start: 0;
 }
 
 .image {
     display: flex;
+    justify-content: center;
 }
 
 .image img {
@@ -86,7 +96,7 @@ a:hover {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
 }
 
 .section-title {
@@ -95,13 +105,12 @@ a:hover {
     line-height: 129%;
     color: #000000;
     margin: 30px 0;
+    background-image: radial-gradient(circle closest-corner at 40% 60%, #dee7ea 30%, transparent);
 }
 
 .section-text {
     color: rgb(67, 67, 67);
-
 }
-
 
 .skills-item {
     list-style: disc;
@@ -120,9 +129,10 @@ a:hover {
 code {
     display: block;
     background-color: #dddddd;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: monospace;
     padding: 20px;
+    background-image: radial-gradient(circle closest-corner at 25% 50%, #fff 50%, transparent);
 }
 
 /* -------------------------------------footer-------------------------------- */
@@ -130,18 +140,13 @@ code {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
     margin: 0 auto;
-    background: #e2e2e2;
-
+    background: #EECFBA;
 }
 
-.footer {
-    padding: 12px 0px;
-}
-
-.footer-rsschool {
-    width: 121px;
-    height: 45px;
-    background-size: contain;
+.footer-rsschool > img {
+    height: 40px;
+    vertical-align: middle;
     background-repeat: no-repeat;
 }
